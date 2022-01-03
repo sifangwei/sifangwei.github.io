@@ -13,6 +13,21 @@
 
 
 
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@alligatorio">
+<meta name="twitter:title" content="News">
+
+
+  <meta name="twitter:description"
+    content="## News
+
+{% for article in site.data.news %}
+{{ article.date }} 
+{{ article.headline }}
+{% endfor %}
+">
+
+
 </head>
 
 
